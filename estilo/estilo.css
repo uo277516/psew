@@ -32,6 +32,11 @@ body {
     background-color: #E1CCEC;
     text-transform: uppercase;
     text-align: center;
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    margin-right: 5px;
   
    }
 
@@ -86,6 +91,8 @@ body {
     color: #000;
     background-color: #EAFFD0;
     font-size: 20px;
+    background-color:#EAFFD0;
+
    }
   
    caption{
@@ -100,8 +107,7 @@ body {
    tr,td,th{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000;
-    background-color:#EAFFD0;
-  
+    background-color:#BE9FE1;
    }
   
    ul{
@@ -121,6 +127,8 @@ body {
       display: block;
       margin: auto;
       border:solid;
+      margin-top: 30px;
+      margin-bottom: 30px;
    }
   
    form{
@@ -133,13 +141,14 @@ body {
    fieldset{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000;
-    background-color: #EAFFD0;
+    background-color: #dec9f7;
+    margin-top: 10px;
    }
   
    legend{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000;
-    background-color: #EAFFD0;
+    background-color: #dec9f7;
     border: 1px solid;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -151,13 +160,23 @@ body {
     color: #000;
     background-color: #EAFFD0;
     margin-bottom: 20px;
+    font-size: 20px;
+   }
+
+
+    form>input{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    background-color: #EAFFD0;
+    margin: 20px 20px 20px 20px;
     padding: 2px;
+    font-size: 23px;
    }
   
    label{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000;
-    background-color: #EAFFD0;
+    background-color: #dec9f7;
   
    }
 

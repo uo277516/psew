@@ -2,8 +2,8 @@ body {
     display: grid;
     grid-template-areas: 
                          'head'
-                         'main '
-                         'foot ';
+                         'main'
+                         'foot';
 }
 
 header {

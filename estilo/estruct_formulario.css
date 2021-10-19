@@ -2,8 +2,8 @@ body {
     display: grid;
     grid-template-areas: 
                          'head head' 
-                         'main text' 
-                         'main text'
+                         'main multi' 
+                         'main multi'
                          'foot foot';
     grid-gap: 10px;
     grid-template-rows: 300px 1fr 30px;
@@ -16,7 +16,7 @@ header {
 
 aside {
     margin-top: 20%;
-    grid-area: text;
+    grid-area: multi;
 }
 
 main {
