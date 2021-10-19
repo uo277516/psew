@@ -40,14 +40,6 @@ body {
   
    }
 
-   h4 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #000;    
-    background-color: white;
-    text-align: center;
-    font-style: italic;
-  
-   }
   
    nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -65,13 +57,13 @@ body {
   
    
   
-   nav>a:link{
+   a:link{
     color: blue;
     background-color: #F1F1F6;
     
   }
   
-  nav>a:visited{
+  a:visited{
     color: blueviolet;
     background-color: #F1F1F6;
   }
@@ -98,7 +90,7 @@ body {
    caption{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000;
-    background-color: #EAFFD0;
+    background-color: #F1F1F6;
     font-size: 30px;
     padding: 25px;
     margin : 20px 0px 0px 0px;
@@ -113,20 +105,22 @@ body {
    ul{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000;
-    background-color:#EAFFD0;
+    background-color:#F1F1F6;
     font-size: 20px;
    }
   
    li{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000;
-    background-color:#EAFFD0;
+    background-color:#F1F1F6;
    }
   
    img,video,audio{
       display: block;
       margin: auto;
       border:solid;
+      margin-top: 30px;
+      margin-bottom: 30px;
    }
   
    form{
