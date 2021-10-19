@@ -2,18 +2,18 @@ body {
     display: grid;
     grid-template-areas: 
                          'head head' 
-                         'main multi' 
-                         'main multi'
+                         'sec multi' 
+                         'sec multi'
                          'foot foot';
-    grid-template-columns: 1fr 750px;
+    grid-template-columns: 1fr 700px;
 }
 
 header {
     grid-area: head;
 }
 
-main {
-    grid-area: main;
+section {
+    grid-area: sec;
     text-align: justify;
     margin-right: 10px;
 }
