@@ -1,0 +1,27 @@
+body {
+    display: grid;
+    grid-template-areas: 
+                         'head' 
+                         'sec'
+                         'multi'
+                         'foot';
+}
+
+header {
+    grid-area: head;
+
+}
+
+section {
+    grid-area: sec;
+    text-align: justify;
+}
+
+article {
+    grid-area: multi;
+}
+
+footer {
+    grid-area: foot;
+}
+

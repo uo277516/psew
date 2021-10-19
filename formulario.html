@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Natalia Fernández Riego" />
+    <meta name="keywords" content="formulario, Alan, opinion" />
+    <meta name="description" content="Esta página web está dedicada a realizar un formulario sobre Alan Kay" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Alan Kay</title>
+	<!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>Alan Kay</h1>
+        <h2>Opinión de Alan Kay</h2>
+       
+            <nav>
+                <a title="Biografía de Alan Kay" tabindex= "1" href= "index.html" accesskey="B">Biografía</a>
+                <a title="Premios de Alan Kay" tabindex= "2" href= "premios.html" accesskey="P">Premios</a>
+                <a title="Aportaciones de Alan Kay" tabindex= "3" href="trabajos.html" accesskey="A">Aportaciones</a>
+            </nav>
+        
+        
+    </header>
+
+    <main>
+        <p>A continuación, rellene el siguiente formulario sobre el informático estadounidense: </p>
+    <form name="Opinión de Alan Kay">
+        <fieldset>
+            <legend>¿Conocías al informático Alan Kay?</legend>
+                <input id="conocerSi" type="radio" value="Sí" name="conocer" checked>
+                <label for="conocerSi">Sí</label><br />
+                <input id="conocerNo" type="radio" value="No" name="conocer">
+                <label for="conocerNo">No</label><br />
+                <input id="conocerMedio" type="radio" value="Había oído al hablar" name="conocer">
+                <label for="conocerMedio">Había oído al hablar</label><br />
+        </fieldset>
+
+        <fieldset>
+            <legend>¿Tienes algún conocimiento de informática?</legend>
+                <input id="conoSi" type="radio" value="Sí" name="cono" checked>
+                <label for="conoSi">Sí</label><br />
+                <input id="conoNo" type="radio" value="No" name="cono">
+                <label for="conoNo">No</label><br />
+        </fieldset>
+
+        <fieldset>
+            <legend>¿Cuáles de los siguientes lenguajes manejas?</legend>
+                <input id="Java" type="checkbox" name="info" value="Java" checked/>
+                <label for="Java">Java</label><br />
+                <input id="Python" type="checkbox" name="info" value="Python" />
+                <label for="Python">Python</label><br />
+                <input id="C++" type="checkbox" name="info" value="C++" />
+                <label for="C++">C++</label><br />
+                <input id="R" type="checkbox" name="info" value="R" />
+                <label for="R">R</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Registra tus datos</legend>
+            <input id="nombre" type="text" >
+            <label for="nombre">Nombre</label><br />
+            <input id="apellidos" type="text" >
+            <label for="apellidos">Apellidos</label><br />
+            <input id="nacimiento" type="date">
+            <label for="nacimiento">Fecha de nacimiento</label><br />
+            <input id="email" type="email">
+            <label for="email">Email</label><br />
+        </fieldset>
+        <input id="submit" type="submit" value="Envia tu opinión">
+    </form>
+</main>
+
+<aside>
+    <img src="multimedia/alan3jpg.jpg" alt="Alan Kay en su juventud" width="400" height="450"/>
+</aside>
+
+
+
+<footer>
+    <p>"La mejor forma de predecir el futuro es inventarlo".</p>
+    <img src="multimedia/HTML5.png" alt="HTML5 Válido!" />
+    <img src="multimedia/CSS3.png"  alt="CSS Válido!"  />
+</footer>
+
+</body>
+</html>
