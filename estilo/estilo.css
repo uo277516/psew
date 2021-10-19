@@ -54,6 +54,7 @@ body {
      margin : 25px 50px 40px 25px;
      font-size: 20PX;
      background-color: #F1F1F6;
+     color:black;
    }
 
    main,section,aside,article,footer{
@@ -64,13 +65,13 @@ body {
   
    
   
-   a:link{
+   nav>a:link{
     color: blue;
     background-color: #F1F1F6;
     
   }
   
-  a:visited{
+  nav>a:visited{
     color: blueviolet;
     background-color: #F1F1F6;
   }
@@ -91,7 +92,6 @@ body {
     color: #000;
     background-color: #EAFFD0;
     font-size: 20px;
-    background-color:#EAFFD0;
 
    }
   
@@ -127,8 +127,6 @@ body {
       display: block;
       margin: auto;
       border:solid;
-      margin-top: 30px;
-      margin-bottom: 30px;
    }
   
    form{
@@ -183,6 +181,7 @@ body {
    footer>p {
        font-style: italic;
        background-color: rgb(206, 152, 219);
+       color:black
    }
   
   
